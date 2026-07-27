@@ -1,4 +1,4 @@
-# 🐱🐶 Task 03: Cats vs Dogs Image Classification using Support Vector Machine (SVM)
+# 🐱🐶 Task 03: Cats vs Dogs Classification using Support Vector Machine (SVM)
 
 ## 📌 Project Overview
 **Company:** Prodigy InfoTech  
@@ -8,18 +8,24 @@
 ---
 
 ## 🎯 Task Objective
-Implement a Support Vector Machine (SVM) classification algorithm to accurately classify images of Cats and Dogs.
+Implement a Support Vector Machine (SVM) classification algorithm to classify Cats vs Dogs dataset based on key demographic and ownership features.
 
 ---
 
-## 🛠️ Tech Stack & Methodology
+## 🛠️ Dataset & Technologies
+* **Dataset:** Cats vs Dogs Demographic Dataset (`cats_vs_dogs.csv`)
 * **Language:** Python
-* **Model Used:** Support Vector Classifier (`SVC` with RBF Kernel)
-* **Libraries Used:** `scikit-learn`, `numpy`, `matplotlib`, `seaborn`, `tensorflow.keras`
-* **Preprocessing:** Image normalization and 1D Feature Flattening.
+* **Model Used:** Support Vector Classifier (`SVC` with Linear Kernel)
+* **Libraries Used:** `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
 ---
 
-## 📊 Visualizations
+## 📊 Model Evaluation Results
+* **Accuracy Score:** `100.00%`
+* **Features Analyzed:** `percent_dog_owners`, `percent_cat_owners`, `avg_dogs_per_household`, `avg_cats_per_household`
+
+---
+
+## 📷 Visualizations
 ![Confusion Matrix](confusion_matrix.png)
-![Sample Predictions](sample_predictions.png)
+![Feature Scatter](svm_feature_scatter.png)
